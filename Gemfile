@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 4.1', '>= 4.1.1'
+gem 'jekyll'
 gem 'bundler'
 gem 'kramdown'
 gem 'rack-jekyll'
@@ -14,7 +14,6 @@ gem 'puma'
 
 # Plugins
 group :jekyll_plugins do
-    gem 'devlopr', '~> 0.4.5'
     gem 'jgd', '~> 1.12'
     gem 'jekyll-paginate', '~> 1.1.0'
     gem 'jekyll-gist', '~> 1.5.0'
